@@ -1,0 +1,204 @@
+*
+{
+  margin : 0;
+  padding : 0;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+overflow: hidden;
+}
+
+.containers
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(65,65,65);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+#introText
+{
+  position: relative;
+  top: 250px;
+  left: 300px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-size: 20px;
+}
+
+#intro-name
+{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4.5em;
+    font-weight: 700;
+    color: rgb(220, 220, 220);
+    line-height: normal;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 8px 16px;
+}
+
+#navBar
+{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  /* background-color: rgb(89,89,89); */
+  background-color: rgb(65,65,65);
+  width: 4%;
+  height: 100%;
+}
+
+#nav-li{
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+
+#nav-li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+#nav-li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+#nav-li a:after
+{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.footer {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(65,65,65);
+}
+
+.footer-div
+{
+  position: fixed;
+  display: block;
+  height: 2px;
+  left: 2%;
+
+
+}
+
+#intro-links
+{
+  color: black
+}
+
+#Programming
+{
+  float:left;
+  width:33.33%;
+  height:7000px;
+
+}
+
+#ProgrammingBar
+{
+  list-style-type: none;
+  margin-top: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+#Web
+{
+  float:left;
+  width:33.33%;
+  height:7000px;
+}
+#webBar
+{
+  list-style-type: none;
+    margin-top: 200px;
+  text-align: center;
+vertical-align: middle;
+line-height: 30px;
+}
+
+#DB
+{
+  float:left;
+  width:33.33%;
+  height:7000px;
+}
+#dbBar
+{
+  list-style-type: none;
+    margin-top: 200px;
+  text-align: center;
+vertical-align: middle;
+line-height: 30px;
+}
+
+#skill-head
+{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+#skills-li
+{
+  padding-left: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+#footer-icons
+{
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+#footer-links
+{
+  text-decoration: none;
+  color : grey;
+}
