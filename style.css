@@ -28,9 +28,11 @@ overflow: hidden;
 
 #introText
 {
-  position: relative;
+  /* position: relative;
   top: 250px;
-  left: 300px;
+  left: 300px; */
+  text-align: center;
+  padding-top:  16rem;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -58,8 +60,6 @@ overflow: hidden;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 400px;
-  /* background-color: rgb(89,89,89); */
   background-color: rgb(65,65,65);
   width: 4%;
   height: 100%;
@@ -187,6 +187,7 @@ line-height: 30px;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
+  color: silver;
 }
 
 #footer-icons
@@ -202,3 +203,45 @@ line-height: 30px;
   text-decoration: none;
   color : grey;
 }
+
+@media (max-width: 605px) {
+  #introText{
+    font-size: 1rem;
+  }
+  body
+  {
+  overflow:scroll;
+  }
+  #ProgrammingBar
+  {
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 20px;
+  }
+  #webBar
+  {
+    list-style-type: none;
+      margin-top: 20px;
+    text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 20px;
+  }
+  #dbBar
+  {
+    list-style-type: none;
+      margin-top: 20px;
+    text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 20px;
+  }
+  #skill-head
+  {
+    font-size: 10px;
+  }
+
+} 
