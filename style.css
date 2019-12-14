@@ -320,6 +320,11 @@ line-height: 30px;
     font-size: 10px;
   }
 
+  #skills-li
+  {
+    font-size: 0.7rem;
+  }
+
   #about-head
   {
     padding-left:10rem;
