@@ -43,14 +43,11 @@ overflow: hidden;
 
 #intro-name
 {
-  /* -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  /*-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  /* animation-name: example;
-  animation-duration: 4s; */ */
+ 
     display: block;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 4.5em;
+    font-size : 4.5em;
     font-weight: 700;
     /* color: rgb(220, 220, 220); */
     color: rgb(223, 98, 98);
@@ -61,6 +58,7 @@ overflow: hidden;
 
 #navBar
 {
+  
   position: fixed;
   left: 0px;
   top: 0px;
@@ -98,7 +96,7 @@ overflow: hidden;
 
 #nav-li a:after
 {
-  background: none repeat scroll 0 0 transparent;
+  background: none repeat  0 0 transparent;
   bottom: 0;
   content: "";
   display: block;
@@ -222,16 +220,37 @@ line-height: 30px;
     color: rgb(223, 98, 98);
 }
 
-#subhead
+#projects-head
+{
+    padding-left:38rem;
+    padding-top: 5rem;  
+    color: rgb(220, 220, 220);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 8px 16px;
+    color: rgb(223, 98, 98);
+}
+
+#project-title-head {
+  color: rgb(71, 209, 156);
+}
+
+#subhead {
+  padding-left: 60rem;
+  font-size: 2rem;
+  color:rgb(223, 98, 98);
+}
+
+#subhead, #intro-name
 {
   
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
   animation-name: example;
   animation-duration: 3s;
-  padding-left: 60rem;
-  font-size: 2rem;
-  color:rgb(223, 98, 98);
+  
 }
 
 @-webkit-keyframes example {
@@ -338,6 +357,19 @@ line-height: 30px;
     color: rgb(223, 98, 98);
   }
 
+  #projects-head
+  {
+    padding-left:10rem;
+    padding-top: 5rem;  
+    color: rgb(220, 220, 220);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* font-weight: bold; */
+    font-size: 1rem;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 8px 16px;
+    color: rgb(223, 98, 98);
+  }
+
   #about-text
   {
     color: rgb(220, 220, 220);
@@ -356,4 +388,5 @@ line-height: 30px;
   animation-duration: 3s;
   }
 
+  
 } 
