@@ -9,9 +9,13 @@ html
   scroll-behavior: smooth;
 }
 
-body
+/* body
 {
 overflow: hidden;
+} */
+
+footer {
+  z-index: 99;
 }
 
 .containers
@@ -26,14 +30,19 @@ overflow: hidden;
 
 }
 
+/* img {
+  float: right;
+  padding-top: 5rem;
+  padding-right: 5rem;
+  border-radius: 10%;
+} */
+
 #introText
 {
-  /* position: relative;
-  top: 250px;
-  left: 300px; */
+  
   
   text-align: center;
-  padding-top:  16rem;
+  padding-top:  15rem;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
